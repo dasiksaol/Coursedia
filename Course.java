@@ -1,8 +1,9 @@
-public class Course {
+import java.util.ArrayList;
+
+class Course {
     private String courseName;
     private String courseSection;
     private Faculty faculty;
-    private Course course;
     private String facultyName;
 
     public Course(String courseName, String courseSection, Faculty faculty) {
@@ -13,9 +14,9 @@ public class Course {
     }
 
     public void getCourseInfo() {
-        System.out.println("Course Name: " + course.courseName);
-        System.out.println("Course Section: " + course.courseSection);
-        System.out.println("Course Faculty: " + facultyName);
+        System.out.println("Course Name: " + this.courseName);
+        System.out.println("Course Section: " + this.courseSection);
+        System.out.println("Course Faculty: " + this.facultyName);
     }
 
     class Faculty {
@@ -35,11 +36,22 @@ public class Course {
     class Feedback {
         private Course course;
 
-
-        public Feedback(Course course){
+        public Feedback(Course course) {
             this.course = course;
         }
+    }
+}
 
+public class Main {
+    public static void main(String[] args) {
+        ArrayList<Course> courses = new ArrayList<>();
 
+        // Create an instance of Course to access the inner class Faculty
+        Course tempCourse = new Course("Temporary", "Temp 101", null);
+        Course.Faculty aruna = tempCourse.new Faculty("Aruna", "IT");
+
+        Course javaI = new Course("Introduction to Java", "ITM 101", aruna);
+        courses.add(javaI);
+        javaI.getCourseInfo();
     }
 }

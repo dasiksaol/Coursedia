@@ -29,7 +29,7 @@ public class FileHandling {
             ObjectInputStream oin = new ObjectInputStream(fin);
 
             //READ DATA FROM FILE AND STORE IT IN ARRAYLIST
-            pllist = (ArrayList<FootballModel>) oin.readObject();
+            courseList = (ArrayList<Course>) oin.readObject();
             //System.out.println("READING FROM FILE COMPLETED....");
         } catch (FileNotFoundException e) {
             pllist = new ArrayList<FootballModel>();
