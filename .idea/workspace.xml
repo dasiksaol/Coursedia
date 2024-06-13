@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c02ac98-c057-486a-a51c-be3a684b35ea" name="Changes" comment="Introduction">
-      <change afterPath="$PROJECT_DIR$/FileHandling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/FileHandling.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +48,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.FileHandling.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "File-Handling-Test---Colde",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/"
+    "last_opened_file_path": "D:/",
+    "settings.editor.selected.configurable": "editing.templates"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
