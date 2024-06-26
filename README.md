@@ -12,6 +12,7 @@ First Phase (MVP):
       - Module / Some Example File and Lesson
       - Rating
       - Feedback / Comments
+      and view professor's info and all the course they are teaching
 
 Second Phase:
 
